@@ -31,11 +31,14 @@ def project_all_search(project):
 
     return project_key
 
+
 # 샷건에 생성된 한가지의 프로젝트 검색
 def project_search(project):
     project_filter = [
         ['name','is',project]
     ]
     project_key = sg.find_one('Project',project_filter)
-
-# 
+    if not project_key:
+        return 
+    
+    return project_key 

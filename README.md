@@ -4,3 +4,6 @@
 
 # code
      python2.7
+
+# reference site
+     http://developer.shotgunsoftware.com/python-api/reference

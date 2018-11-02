@@ -17,7 +17,10 @@
 # 참고사항 2
      class를 사용해 속성을 만들어서 추가하는게 효율이 좋다. (편의성)
 
-# code
+# 참고사항 3
+     ###_key 를 쓰거나, 반환 하는 함수는 엔티티를 의미한다.
+
+# developer_code
      python2.7
 
 # reference site
